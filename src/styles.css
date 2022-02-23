@@ -10,7 +10,7 @@ body {
    background: linear-gradient(50deg, var(--primary-color)  40%, rgba(0,0,0,0) 30%), linear-gradient(150deg, var(--accent-color) 63%, var(--primary-color) 60%);
    color: var(--text-color);
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   padding: 25px;
+   padding: 30px;
 }
 header {
    display: flex;
@@ -42,6 +42,11 @@ footer {
    padding: 20px;
    margin: 0px;
 }
+.container {
+   padding: 0;
+   margin: 0;
+   max-width: 1900px;
+}
 .logo {
    border-radius: 50%;
 }
@@ -51,6 +56,7 @@ footer {
    font-size: 30px;
    justify-content: flex-end;
    margin: 0;
+   padding-top: 45px;
 }
 .header-menu li {
    padding: 0px 20px;
@@ -66,6 +72,7 @@ footer {
    min-width:782px;
    align-self: center;
    margin-bottom: 5px;
+   margin-top: 50px;
 }
 .tagline p {
    max-width:900px;
