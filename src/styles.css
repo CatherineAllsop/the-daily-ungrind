@@ -2,6 +2,7 @@
    --primary-color: #103931;
    --text-color: #f5d5ca;
    --accent-color: #0a2c25;
+   --teritary-color: rgb(230, 182, 182);
 }
 body {
    background: linear-gradient(50deg, var(--primary-color)  40%, rgba(0,0,0,0) 30%), linear-gradient(150deg, var(--accent-color) 63%, var(--primary-color) 60%);
@@ -60,7 +61,7 @@ footer {
 .header-menu {
    display: flex;
    font-weight: 700;
-   font-size: 30px;
+   font-size: 26px;
    justify-content: flex-end;
    margin: 0;
    padding-top: 45px;
@@ -68,6 +69,27 @@ footer {
 .header-menu li {
    padding: 0px 20px;
 }
+a {
+   color: inherit;
+}
+a:hover {
+   color: inherit;
+   text-decoration: inherit;
+}
+.you-are-here {
+   background: rgb(230, 182, 182);
+   border-radius: 2px;
+   font-style: italic;
+ }
+ .site-link:hover {
+   background: var(--text-color);
+   border-radius: 2px;
+   color: var(--accent-color);
+   cursor: pointer;
+   font-style: italic;
+   font-weight: bold;
+   transition: all 200ms linear;
+ }
 .tagline {
    display:flex;
    flex-direction: column;
@@ -93,4 +115,22 @@ footer {
 }
 .navigation-menu li {
    list-style: none;
+   margin: 5px 0px;
+}
+.social-media-icons {
+   margin: 0px 5px 12px 5px;
+}
+.privacy-message {
+   font-style: italic;
+   font-weight: 400;
+   line-height: 1;
+   margin-top: 12px;
+}
+button {
+   background-color: var(--teritary-color);
+   border: none;
+   border-radius: 4px;
+   color: var(--accent-color);
+   font-weight: 600;
+   padding: 3px 12px;
 }
