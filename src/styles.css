@@ -32,12 +32,16 @@ h3 {
    font-weight: 500;
 }
 h4 {
-   font-size: 24px;
+   font-size: 26px;
 }
 h5 {
    font-size: 26px;
    font-weight: 700;
-   margin-left: 36px;
+}
+h6 {
+   font-size: 19px;
+   font-weight: 700;
+   text-transform: uppercase;
 }
 p {
    font-size: 22px;
@@ -121,10 +125,11 @@ a:hover {
    margin: 0px 5px 12px 5px;
 }
 .privacy-message {
+   font-size: 18px;
    font-style: italic;
    font-weight: 400;
    line-height: 1;
-   margin-top: 12px;
+   margin-top: 20px;
 }
 button {
    background-color: var(--teritary-color);
