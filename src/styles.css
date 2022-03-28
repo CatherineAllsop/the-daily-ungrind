@@ -12,14 +12,10 @@ body {
    color: var(--text-color);
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    padding: 30px;
-}
-header {
-   display: flex;
-   justify-content: flex-start;
+   padding-top:30px;
 }
 h1 {
-   font-size: 40px;
-   margin: 36px 0px 10px 30px;
+   font-size: 35px;
    text-transform: uppercase;
 }
 h2 {
@@ -28,7 +24,7 @@ h2 {
    margin: 10px 0px 0px 30px;
 }
 h3 {
-   font-size: min(max(50px, 7vw), 90px);
+   font-size: 80px;
    font-weight: 500;
 }
 h4 {
@@ -53,6 +49,14 @@ footer {
    justify-content: space-between;
    margin: 0px;
    padding: 30px 50px;
+}
+.navbar {
+   background-color: var(--accent-color);
+}
+.navbar li a {
+   color: var(--text-color) !important;
+   font-size: 20px !important;
+   padding: 0px 15px !important;  
 }
 .container {
    padding: 0;
@@ -91,28 +95,9 @@ a:hover {
    color: var(--accent-color);
    cursor: pointer;
    font-style: italic;
-   font-weight: bold;
+   font-weight: 600px;
    transition: all 200ms linear;
  }
-.tagline {
-   display:flex;
-   flex-direction: column;
-   align-items: flex-start;
-   width: 1500px;
-}
-.tagline h3 {
-   max-width:900px;
-   min-width:782px;
-   align-self: center;
-   margin-bottom: 5px;
-   margin-top: 50px;
-}
-.tagline p {
-   max-width:900px;
-   min-width:782px;
-   align-self: center;
-   margin-bottom: 50px;
-}
 .banner {
    display: flex;
    justify-content: center;
